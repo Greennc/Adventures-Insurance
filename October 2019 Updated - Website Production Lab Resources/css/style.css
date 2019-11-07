@@ -1,0 +1,220 @@
+@media only all and (max-width:56.25em) and (min-width:25em) {
+	/* CSS rules here */
+  .logo {
+    max-width: 400px;
+ height: auto;
+  }
+}
+/*
+body
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+    background: #FEFEEE;
+} */
+
+/* .darkbackground
+{
+    background-image: url("https://previews.dropbox.com/p/orig/AAlwYVvY0i6nJlaWzvIAbJeiW5BaJaM8x8Uav-zhs2_pKIVmWKXUb2prYg9zWOvZnp50AjhpF_MwTGmLrLxLcr-TSXlPtZAOHz-AYgF1oB9n-XKemRlm4RVZHuuyBjO3LRKQWInATqAfT5nJQrpwkfGR7iitz5gFbVmEUoykrHK_mLcovtY3nYMaLaZelVeyQAn16TXr_uFjexcNUvA-UEB9VPChlGYIB1PGGyaJfX5Rm7dfUwEXy5pzMZalCea8zq8l_SMeHSN5iuMdbYuAJUCHix1VtMu97QFcst48twO1RBir_EQF8DZNw7uwBvsCLmA/p.gif?fv_content=true&size_mode=5"); */
+}
+/* image {
+border: none;
+
+} */
+
+/* .headerimages {
+    align-content: center;
+} */
+
+
+#moveThis {
+  margin-top: 50px;
+}
+
+
+
+
+.menu
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    font-size: 1.2em;
+    display: inline-block;
+
+
+}
+
+.menu li {
+    float:left;
+    height:30px;
+    line-height:30px;
+
+}
+.menu li a {
+    display: flex;
+    padding:0 35px;
+    color: white;
+    text-decoration: none;
+
+
+}
+.menu li a:hover {
+    font-style: italic;
+    text-decoration: none;
+}
+.miArticle {
+width: 350px;
+
+}
+#leftArticle {
+    margin-right: 20px;
+    border-right: 1px dashed #6c4a2c;
+}
+.articleH {
+  color: #601d15;
+}
+.below {
+  color: white;
+ text-align: center;
+}
+
+#facebook {
+  border: none;
+  margin-top: 3px;
+}
+
+#theDiv
+{
+    display: flex;
+
+}
+
+.darkRedHeader
+{
+    color: #601d15;
+}
+
+.theOwner
+{
+    height: 24px;
+    width: 150px;
+    color: darkgrey;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+form
+{
+    margin: 0 auto;
+    width: 500px;
+    display: table;
+}
+form p
+{
+    color: #601d15;
+    display: table-row;
+}
+
+form p label
+{
+    display: table-cell;
+}
+
+ form p label input
+ {
+        display: table-cell;
+
+ }
+ #button  {
+     background-color: #601d15;
+     color: white;
+     border-radius: 12px;
+ }
+
+#aboutHover:hover
+{
+    background-color: #18b6f2;
+    transform: scale(1.3);
+    transition: all .2s ease-in-out;
+}
+
+#rollerCoaster {
+
+}
+#rollerCoaster:hover
+{
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+.fancyFont {
+  font-family: 'Libre Baskerville', serif;
+  color: #601d15;
+}
+
+@media only all and (max-width:900px)  {
+	/* CSS rules here */
+  .logo {
+    max-width: 400px;
+    height: auto;
+  }
+  .logobackground{
+    display: none;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    width: 20%;
+  }
+
+  li a {
+    display: flex;
+  }
+
+}
+@media (min-width:450px) and (max-width:900px)  {
+  #changeSize {
+
+
+  }
+.logo {
+  max-width: 200px ;
+  /* -ms-align-items: center;
+  align-items: center; */
+}
+
+#logobackground {
+  max-width: 200px;
+  height: auto;
+  display: inline;
+  float: none;
+  margin: 10px auto;
+  position: center;
+
+}
+
+
+
+
+  /* .logo {
+    max-width: 400px;
+    height: auto;
+
+  }
+  header {
+    max-width: 300px;
+  }
+
+  header[style]{
+
+  } */
+}
